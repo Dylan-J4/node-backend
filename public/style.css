@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 2rem;
+}
+
+.message-container {
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+}
+
+.form-container button {
+  width: 100px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+#messageUser {
+  width: 200px;
+}
+
+#messageText {
+  height: 80px;
+}
